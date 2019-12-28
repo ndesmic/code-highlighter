@@ -1,0 +1,31 @@
+{
+  "name": "code-highlight",
+  "version": "1.0.0",
+  "description": "Code Highlight",
+  "main": "index.html",
+  "devDependencies": {
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^2.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "karma start ./karma.conf.js",
+    "test:debug": "karma start ./karma.conf.js --no-single-run --auto-watch",
+    "start": "npx http-server -o -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somnid/app-template-wc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somnid/app-template-wc/issues"
+  },
+  "homepage": "https://github.com/Somnid/app-template-wc#readme"
+}
