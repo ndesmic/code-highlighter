@@ -1,3 +1,3 @@
-# wc-app-template
+# code-highligher
 
-My boilerplate for 0 dependency web apps built on top of Web Components.
+Experimental code syntax highligher web-component and lexer framework.
